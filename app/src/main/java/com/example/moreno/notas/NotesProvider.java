@@ -21,6 +21,7 @@ public class NotesProvider extends ContentProvider {
     // Constante para identificar la operacion requerida
     private static final int NOTES = 1;
     private static final int NOTES_ID = 2;
+    public static final String CONTENT_ITEM_TYPE = "Note";
 
     private static final UriMatcher uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
     static {
