@@ -5,4 +5,5 @@
     <string name="delete_all_notes">Borrar todas las notas</string>
     <string name="are_you_sure">Estas seguro?</string>
     <string name="all_deleted">Todas las notas borradas</string>
+    <string name="nota_actualizada">Se actualizo la nota</string>
 </resources>
