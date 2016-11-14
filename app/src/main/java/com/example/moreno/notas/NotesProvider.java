@@ -68,6 +68,7 @@ public class NotesProvider extends ContentProvider {
 
     @Override
     public int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {
-        return database.update(DBOpenHelper.TABLE_NOTES,values,selection,selectionArgs);
+        return database.update(DBOpenHelper.TABLE_NOTES,
+                values, selection, selectionArgs);
     }
 }
