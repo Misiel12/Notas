@@ -33,8 +33,6 @@ implements LoaderManager.LoaderCallbacks<Cursor>
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        insertNote("Nueva Nota");
-
 
         String[] from = {DBOpenHelper.NOTE_TEXT};
         int[] to = {android.R.id.text1};
