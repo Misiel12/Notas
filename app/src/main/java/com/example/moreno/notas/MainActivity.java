@@ -35,10 +35,10 @@ implements LoaderManager.LoaderCallbacks<Cursor>
 
 
         String[] from = {DBOpenHelper.NOTE_TEXT};
-        int[] to = {android.R.id.text1};
+        int[] to = {R.id.tvNote};
 
         cursorAdapter = new SimpleCursorAdapter(this,
-                android.R.layout.simple_list_item_1, null, from, to, 0);
+                R.layout.note_list_item, null, from, to, 0);
         ListView List = (ListView) findViewById(R.id.list_view_1);
 
        List.setAdapter(cursorAdapter);
