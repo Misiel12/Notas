@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Notas</string>
+
+    <string name="create_sample_data">Crear datos de ejemplo</string>
+    <string name="delete_all_notes">Borrar todas las notas</string>
+    <string name="are_you_sure">Estas seguro?</string>
+    <string name="all_deleted">Todas las notas borradas</string>
 </resources>
